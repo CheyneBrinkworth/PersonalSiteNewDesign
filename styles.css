@@ -1,0 +1,239 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  position: relative;
+  height: 100px;
+  z-index: 1;
+  padding-left: 20px;
+}
+
+.header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.header-buttons {
+  position: absolute;
+  top: 35%;
+  right: 0%;
+}
+
+.header-buttons a {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-buttons a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.download-button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin-top: 20px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.download-button:hover {
+  transform: scale(1.03);
+}
+
+.left {
+  width: 50%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: start;
+}
+
+.right {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.right img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 30%;
+}
+
+.contact-social-container {
+  display: flex;
+  flex-direction: column;
+  flex: start;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.contact p {
+  margin: 5px 0;
+  font-style: italic;
+  font-weight: 400;
+  color: #333333;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.social-links a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.container-bottom .contact-social-container {
+  display: flex;
+  flex-direction: column;
+  flex: start;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.container-bottom {
+  padding-bottom: 50px;
+}
+
+.about-content p {
+  margin-bottom: 10px;
+}
+
+.scroll-button {
+  margin-top: 10%;
+  font-style: normal;
+  color: #000000;
+  text-decoration: none;
+}
+
+.scroll-button:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.scroll-button-container {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+
+.arrow-down {
+  position: absolute;
+  margin-left: 100%;
+  top: 40%;
+  left: 15%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.cv-box {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  padding: 25px;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 0px;
+  max-width: 45%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cv-section .cv-box ul {
+  line-height: 1.5;
+}
+
+.skills-columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+#about-box{
+  margin-top: 625px;
+}
+
+#skills-box {
+  margin-top: 600px;
+}
+
+#certifications-box {
+  margin-top: 600px;
+}
+
+#work-box {
+  margin-top: 600px;
+}
+
+#work-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#work-box ul li {
+  white-space: pre-line;
+  position: relative; 
+}
+
+ul{
+  list-style: none;
+}
+
+.coming-soon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.coming-soon-text {
+  background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
